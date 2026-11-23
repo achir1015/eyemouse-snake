@@ -1,0 +1,25 @@
+天空、材質與模型來自 Poly Haven（https://polyhaven.com），CC0 公眾領域授權：
+garden_nook
+dry_orchard_meadow
+forest_ground_04
+leaves_forest_ground
+mossy_rock
+coast_sand_01
+dirty_concrete
+clean_pebbles
+brown_mud_02
+food_apple_01
+grass_medium_01
+grass_medium_02
+dandelion_01
+fern_02
+flower_gazania
+moss_01
+rock_moss_set_01
+moon_rock_01
+moon_rock_03
+moon_rock_05
+can_rusted
+lambis_shell
+coast_rocks_02
+namaqualand_stones_01

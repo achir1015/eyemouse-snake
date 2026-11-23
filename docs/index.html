@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>眼動鼠貪吃蛇</title>
+<link rel="icon" href="icon.png">
+<style>
+  :root { --bg:#0F2340; --card:#1a3355; --text:#EAF2FF; --dim:#9DB2D6; --accent:#FFC53D; --ok:#1E9E6A; }
+  body { margin:0; font-family:"Noto Sans TC","Microsoft JhengHei",sans-serif; background:var(--bg); color:var(--text); line-height:1.7; }
+  main { max-width:960px; margin:0 auto; padding:32px 16px 64px; }
+  header { display:flex; gap:20px; align-items:center; }
+  header img { width:112px; height:112px; }
+  h1 { margin:0; font-size:2rem; }
+  .lead { color:var(--dim); margin:4px 0 0; }
+  .btns { display:flex; flex-wrap:wrap; gap:12px; margin:28px 0; }
+  .btn { display:inline-block; padding:14px 22px; border-radius:14px; background:var(--ok); color:#fff; text-decoration:none; font-weight:700; font-size:1.1rem; }
+  .btn.alt { background:#3B6FD8; }
+  .soon { color:var(--dim); margin:-12px 0 24px; }
+  .shots { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:12px; margin-bottom:24px; }
+  .shots img { width:100%; border-radius:12px; display:block; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:14px; }
+  .card { background:var(--card); border-radius:16px; padding:16px 18px; }
+  .card b { color:var(--accent); }
+  footer { margin-top:40px; color:var(--dim); font-size:.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="icon.png" alt="">
+    <div>
+      <h1>眼動鼠貪吃蛇</h1>
+      <p class="lead">教・學・養・心安：像蟻人一樣縮小，在立體的 3D 空間裡用眼睛控制蛇。看著想去的地方，蛇就游過去；邊玩邊學宇宙、黑洞、病菌、害蟲與恐龍的知識。為漸凍人與行動不便的朋友設計。</p>
+    </div>
+  </header>
+  <div class="btns">
+    <a class="btn" href="https://github.com/achir1015/eyemouse-snake/releases/latest/download/EyeMouseSnake-Setup.exe">下載 Windows 安裝程式</a>
+    <a class="btn alt" href="https://github.com/achir1015/eyemouse-snake/releases/latest/download/EyeMouseSnake-Windows-portable.zip">免安裝版（zip）</a>
+    <a class="btn alt" href="https://github.com/achir1015/eyemouse-snake/releases">所有版本</a>
+  </div>
+  <p class="soon">macOS、線上版、iPhone／iPad、Android 版製作中。</p>
+  <div class="shots">
+    <img src="shots/blackhole.jpg" alt="黑洞：吸積盤與重力透鏡">
+    <img src="shots/garden.jpg" alt="微觀花園：縮小到螞蟻大小">
+    <img src="shots/ocean.jpg" alt="海底：海帶森林與魚群">
+    <img src="shots/bacteria.jpg" alt="細菌世界">
+    <img src="shots/gutter.jpg" alt="水溝：蟑螂與細菌">
+    <img src="shots/title.jpg" alt="主選單">
+  </div>
+  <div class="grid">
+    <div class="card"><b>用眼睛玩</b><br>眼動鼠（Tobii）、筆電網路攝影機眼控、滑鼠、鍵盤都可以。看著畫面哪裡，蛇就往哪裡轉；看不到眼睛會自動暫停。</div>
+    <div class="card"><b>九個 3D 世界</b><br>量子領域、太陽系、黑洞、微觀花園、恐龍時代、海底、荷花池、水溝、細菌世界。</div>
+    <div class="card"><b>教</b><br>小柯機器人台灣華語語音教學，邊講邊示範；隨時可以再聽一次。</div>
+    <div class="card"><b>學</b><br>46 張科普知識卡：太陽系行星、黑洞起源、病菌由來與預防、害蟲定義與防範、恐龍時代。</div>
+    <div class="card"><b>養</b><br>護眼休息提醒與呼吸引導；「我的小蛇」吃得越多越長大，10 種花紋。</div>
+    <div class="card"><b>心安</b><br>預設放鬆模式：不會失敗、不扣愛心，慢慢玩、慢慢學。也有三顆愛心的挑戰模式。</div>
+    <div class="card"><b>五種鏡頭</b><br>追蹤、蛇眼、側面、高空俯瞰、環繞，任何視角都能用眼睛控制。</div>
+    <div class="card"><b>程式內更新</b><br>主選單「檢查更新」，Windows 版會自動下載新版並安裝。</div>
+  </div>
+  <footer>
+    系統開發：吳玉柱 先生 與 Claude AI Opus 5.5<br>
+    模型與材質：Poly Haven（CC0）；行星與銀河貼圖：Solar System Scope（CC BY 4.0）；字型 Noto Sans TC（SIL OFL）。
+  </footer>
+</main>
+</body>
+</html>

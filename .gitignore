@@ -1,0 +1,8 @@
+.godot/
+*.tmp
+/build/
+tools/lines.json
+.claude/
+eyecam/build/
+eyecam/dist/
+__pycache__/
